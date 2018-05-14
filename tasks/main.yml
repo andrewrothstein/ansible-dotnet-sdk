@@ -9,3 +9,8 @@
       skip: true
       paths:
         - '{{role_path}}/vars'
+- name: one time SDK bootstrap...
+  become: yes
+  become_user: root
+  command: /usr/local/bin/dotnet new
+
