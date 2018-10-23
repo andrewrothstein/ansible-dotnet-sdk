@@ -13,4 +13,3 @@
   become: yes
   become_user: root
   command: /usr/local/bin/dotnet new
-
