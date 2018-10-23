@@ -30,8 +30,8 @@ galaxy_info:
     - development
 
 dependencies:
-  - src: andrewrothstein.dotnet
-    version: v2.0.4
+  - role: andrewrothstein.dotnet
+    version: v2.0.5
     dotnet_install_type: sdk
     dotnet_ver: '{{dotnet_sdk_ver}}'
     dotnet_subdirs:
