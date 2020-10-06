@@ -1,3 +1,40 @@
 ---
 # defaults file for dotnet-sdk
-dotnet_sdk_ver: '2.1.200'
+dotnet_sdk_ver: '3.1.402'
+dotnet_sdk_subdirs:
+  '2.1.518':
+    # https://download.visualstudio.microsoft.com/download/pr/5e5f121b-7870-43ef-8729-c16be9b4f378/bd3d27d822c178d94fc95dec14411e8b/dotnet-sdk-2.1.518-linux-x64.tar.gz
+    linux-x64: 'pr/5e5f121b-7870-43ef-8729-c16be9b4f378/bd3d27d822c178d94fc95dec14411e8b'
+    # https://download.visualstudio.microsoft.com/download/pr/c24968d1-472f-4c4a-a57f-07aff0ae5178/b9b348f5f4f4211c4a8432ebc1771778/dotnet-sdk-2.1.518-linux-musl-x64.tar.gz
+    linux-musl-x64: 'pr/c24968d1-472f-4c4a-a57f-07aff0ae5178/b9b348f5f4f4211c4a8432ebc1771778'
+    # https://download.visualstudio.microsoft.com/download/pr/089d443c-dcab-40c3-a449-37fdbfd92685/f5535317d14ed3157ab3cd66f4741fe6/dotnet-sdk-2.1.518-osx-x64.tar.gz
+    osx-x64: 'pr/089d443c-dcab-40c3-a449-37fdbfd92685/f5535317d14ed3157ab3cd66f4741fe6'
+  '3.1.108':
+    # https://download.visualstudio.microsoft.com/download/pr/b6100b24-89dc-4e8e-9778-0c7bc06cd79d/5237c0d25d08028e33dec42e9875fcc1/dotnet-sdk-3.1.108-linux-x64.tar.gz
+    linux-x64: 'pr/b6100b24-89dc-4e8e-9778-0c7bc06cd79d/5237c0d25d08028e33dec42e9875fcc1'
+    # https://download.visualstudio.microsoft.com/download/pr/8c0d4257-3738-4fac-ac62-88568c1d3d6d/cab341e77694f818d5eb3394a53d2d81/dotnet-sdk-3.1.108-linux-musl-x64.tar.gz
+    linux-musl-x64: 'pr/8c0d4257-3738-4fac-ac62-88568c1d3d6d/cab341e77694f818d5eb3394a53d2d81'
+    # https://download.visualstudio.microsoft.com/download/pr/b61aba12-a766-4ae8-93f0-acd9868a74ad/7021f4c244484cb1aa95707550ec08b8/dotnet-sdk-3.1.108-osx-x64.tar.gz
+    osx-x64: 'pr/b61aba12-a766-4ae8-93f0-acd9868a74ad/7021f4c244484cb1aa95707550ec08b8'
+  '3.1.402':
+    # https://download.visualstudio.microsoft.com/download/pr/f01e3d97-c1c3-4635-bc77-0c893be36820/6ec6acabc22468c6cc68b61625b14a7d/dotnet-sdk-3.1.402-linux-x64.tar.gz
+    linux-x64: 'pr/f01e3d97-c1c3-4635-bc77-0c893be36820/6ec6acabc22468c6cc68b61625b14a7d'
+    # https://download.visualstudio.microsoft.com/download/pr/e301fc5c-c8dd-4f8e-94ee-d19f3caf508f/a4191801aeb8cd813cf7057ac4d936a0/dotnet-sdk-3.1.402-linux-musl-x64.tar.gz
+    linux-musl-x64: 'pr/e301fc5c-c8dd-4f8e-94ee-d19f3caf508f/a4191801aeb8cd813cf7057ac4d936a0'
+    # https://download.visualstudio.microsoft.com/download/pr/ac399dfa-04e1-49cf-be75-7112a9eec68f/60b1ca435b12e7b8beb6bb39b9cdf1c6/dotnet-sdk-3.1.402-osx-x64.tar.gz
+    osx-x64: 'pr/ac399dfa-04e1-49cf-be75-7112a9eec68f/60b1ca435b12e7b8beb6bb39b9cdf1c6'
+dotnet_sdk_checksums:
+  # https://dotnetcli.blob.core.windows.net/dotnet/checksums/2.1.22-sha.txt
+  '2.1.518':
+    linux-x64: sha512:d3797012d026fced1226c3ccaf32257e5a7cf52d926037318dbfe72583fbd6f1ef91d7ba8c0df2c4cb3c348b62d479eaa908d2bd821335c155016806fc0eef2a
+    linux-musl-x64: sha512:702d52dd13d7fc1a000e7ccd2b891d55a0a95096496633a9e67844735d5b03c73a76c9a0df68a4ee2d5960ddd68cc7e93c98ee5037a19522030a84f9b98c2591
+    osx-x64: sha512:01f4b80f9c71538dce0422bf4a29cdc7b0b255d654aad98334ef95fb9c6e3a6725e3cb10480cdb163497fd5e9fbac3b9b6837a8ce53966718146c8f75a78461c
+  # https://dotnetcli.blob.core.windows.net/dotnet/checksums/3.1.8-sha.txt
+  '3.1.108':
+    linux-x64: sha512:9286a070267f5520df6389936ca492660e870ffa6929ca0c2370b5ab7cdbda8c32059263ff232eaedc141ce64797a264ba15d9107e00e4b9f66eb8b0e5ee5bd9
+    linux-musl-x64: sha512:540460c93fb3fde7b439c28c2200dcb095250ad2320fb04ffb3d3b2441717f70375fe8764d9e14a1dea58ef1ed6a1b884a32e1e5e4ffb57a7f6dfd1b954c7a55
+    osx-x64: sha512:d6e2b29cfe915c5d212c05b22d26108a141a70783258e31a47283a54c8e4394fe891ce3050c0f61e4ea8217f855d72e72e252b580d991a3e69b261f8f9d25dc3
+  '3.1.402':
+    linux-x64: sha512:42154efb5ad66ae3dcc300b2c0573a9537dd916fc48cbae92885a63a0b6d7f7c3a4366ca2298107783bc1f1913328f35e778dcda378da276cff3b8269495d5be
+    linux-musl-x64: sha512:30916407ee1f99c0f1398a45aa1a480b6d75c5e42488c877b7879ea68a03de07b29943e89e9324c3b14df4ca1d2723116a5c4812b2265cbb103488706aa56b70
+    osx-x64: sha512:68b5ecc76b588399d4f5bcc123caf0c1c1f26625bf21731737f004886f665ebe6559e9cc77f1265c678508726025f66862fb901ae95a25265bc3da4bed69335f
