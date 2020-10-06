@@ -32,7 +32,7 @@ galaxy_info:
 dependencies:
   - name: andrewrothstein.dotnet
     scm: git
-    src: https://github.com/vmichel95/ansible-dotnet-sdk.git
+    src: https://github.com/vmichel95/ansible-dotnet.git
     version: feature/Add-Alpine-Support-and-Revamp-Installation-Defaults
     dotnet_install_type: sdk
     dotnet_ver: '{{ dotnet_sdk_ver }}'
