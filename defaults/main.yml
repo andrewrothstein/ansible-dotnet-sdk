@@ -1,6 +1,6 @@
 ---
 # defaults file for dotnet-sdk
-dotnet_sdk_ver: '3.1.402'
+dotnet_sdk_ver: 3.1.402
 dotnet_sdk_subdirs:
   '2.1.518':
     # https://download.visualstudio.microsoft.com/download/pr/5e5f121b-7870-43ef-8729-c16be9b4f378/bd3d27d822c178d94fc95dec14411e8b/dotnet-sdk-2.1.518-linux-x64.tar.gz
