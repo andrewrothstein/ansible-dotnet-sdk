@@ -25,7 +25,7 @@ dotnet_sdk_subdirs:
     osx-x64: pr/ac399dfa-04e1-49cf-be75-7112a9eec68f/60b1ca435b12e7b8beb6bb39b9cdf1c6
   '6.0.202':
     # https://download.visualstudio.microsoft.com/download/pr/9d8c7137-2091-4fc6-a419-60ba59c8b9de/db0c5cda94f31d2260d369123de32d59/dotnet-sdk-6.0.202-linux-x64.tar.gz
-    linux-64: pr/9d8c7137-2091-4fc6-a419-60ba59c8b9de/db0c5cda94f31d2260d369123de32d59
+    linux-x64: pr/9d8c7137-2091-4fc6-a419-60ba59c8b9de/db0c5cda94f31d2260d369123de32d59
     # https://download.visualstudio.microsoft.com/download/pr/10cb475d-6134-4180-9c86-712e6a6778dc/b60fd607a872f6f716cee74d68967eb0/dotnet-sdk-6.0.202-linux-musl-x64.tar.gz
     linux-musl-x64: pr/10cb475d-6134-4180-9c86-712e6a6778dc/b60fd607a872f6f716cee74d68967eb0
     # https://download.visualstudio.microsoft.com/download/pr/1a014dee-ff5f-48e3-a817-82b9bd536b56/fed3a710f5e0add13844a6ce400775a1/dotnet-sdk-6.0.202-osx-x64.tar.gz
