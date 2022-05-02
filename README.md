@@ -1,6 +1,6 @@
 andrewrothstein.dotnet-sdk
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-dotnet-sdk.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-dotnet-sdk)
+![Build Status](https://github.com/andrewrothstein/ansible-dotnet-sdk/actions/workflows/build.yml/badge.svg)
 
 Installs the .Net Core SDK
 
